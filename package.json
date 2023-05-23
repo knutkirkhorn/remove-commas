@@ -1,0 +1,54 @@
+{
+	"name": "remove-commas",
+	"version": "1.0.0",
+	"description": "Remove all commas in a string",
+	"main": "index.js",
+	"scripts": {
+		"test": "ava && tsd",
+		"lint": "eslint ."
+	},
+	"bin": {
+		"remove-commas": "cli.js"
+	},
+	"files": [
+		"cli.js",
+		"index.js",
+		"index.d.ts"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/knutkirkhorn/remove-commas.git"
+	},
+	"keywords": [
+		"commas",
+		"remove",
+		"string",
+		"cli"
+	],
+	"author": "Knut Kirkhorn",
+	"type": "module",
+	"exports": "./index.js",
+	"types": "./index.d.ts",
+	"engines": {
+		"node": ">=16"
+	},
+	"license": "MIT",
+
+	"bugs": {
+		"url": "https://github.com/knutkirkhorn/remove-commas/issues"
+	},
+	"homepage": "https://github.com/knutkirkhorn/remove-commas#readme",
+	"dependencies": {
+		"meow": "^12.0.1"
+	},
+	"devDependencies": {
+		"ava": "^5.2.0",
+		"eslint": "^8.41.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-ava": "^14.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-unicorn": "^47.0.0",
+		"execa": "^7.1.1",
+		"tsd": "^0.28.1"
+	}
+}
