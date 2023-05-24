@@ -13,5 +13,5 @@ const cli = meow(`
 	importMeta: import.meta
 });
 
-const input = cli.input[0];
+const input = cli.input.join(' ');
 console.log(removeCommas(input));
