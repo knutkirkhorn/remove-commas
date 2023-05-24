@@ -1,6 +1,6 @@
 {
 	"name": "remove-commas",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "Remove all commas in a string",
 	"main": "index.js",
 	"scripts": {
