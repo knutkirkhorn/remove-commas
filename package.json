@@ -38,6 +38,7 @@
 	},
 	"homepage": "https://github.com/knutkirkhorn/remove-commas#readme",
 	"dependencies": {
+		"clipboardy": "^3.0.0",
 		"meow": "^12.0.1"
 	},
 	"devDependencies": {

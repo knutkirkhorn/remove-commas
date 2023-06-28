@@ -6,6 +6,8 @@ When you need to remove those pesky commas from a string.
 
 ## CLI
 
+If no input is provided, the input will be read from the clipboard.
+
 ### Installation
 
 ```sh

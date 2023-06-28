@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import meow from 'meow';
+import clipboard from 'clipboardy';
 import removeCommas from './index.js';
 
 const cli = meow(`
@@ -13,5 +14,7 @@ const cli = meow(`
 	importMeta: import.meta
 });
 
-const input = cli.input.join(' ');
+const input = cli.input.length > 0
+	? cli.input.join(' ')
+	: clipboard.readSync();
 console.log(removeCommas(input));
